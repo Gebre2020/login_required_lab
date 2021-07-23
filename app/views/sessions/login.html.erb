@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Log in</h1>
+    <%= form_tag('create') do %>
+      <%= text_field_tag('user_id') %>
+      <%= submit_tag 'login' %>
+    <% end %>
+  </body>
+</html>
